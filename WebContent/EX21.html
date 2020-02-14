@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2>회원가입 화면</h2>
+	<form action="http://www.google.com">
+		<table border="1" cellspacing="0">
+			<tr><!-- 1행 -->
+				<th>아이디</th><!-- 1행 1열 -->
+				<td> <!-- 1행 2열 -->
+					<input type="text" autofocus required>
+					<!-- required : 필수 입력 사항으로, 이 제약이 없으면 입력하지 않아도 양식이 전송된다. -->
+					<input type="button" value="중복확인">
+				</td>
+			</tr>
+			<tr><!-- 2행 -->
+				<th>비밀번호</th><!-- 2행 1열 -->
+				<td><!-- 2행 2열 -->
+					<input type="password" required>
+				</td>
+			</tr>
+			<tr><!-- 3행 -->
+				<th>이  름</th><!-- 3행 1열 -->
+				<td><!-- 3행 2열 -->
+					<input type="text" required>
+				</td>
+			</tr><tr><!-- 4행 -->
+				<th>이메일</th><!-- 4행 1열 -->
+				<td><!-- 4행 2열 -->
+					<input type="email">
+				</td>
+			</tr>
+			<tr><!-- 5행 -->
+				<td colspan="2" align="center"> <!-- 2열 병합 -->
+					<input type="submit" value="회원가입">&nbsp;&nbsp;&nbsp; <!-- 1칸을 떼는 특수문자 -->
+					<input type="reset" value="다시작성">
+				</td>
+			</tr>
+		</table>
+	
+	</form>
+
+</body>
+</html>
